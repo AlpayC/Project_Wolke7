@@ -1,0 +1,45 @@
+:root {
+    --black:#000;
+    --white: #fff;
+    --graydark: #5E5E5E;
+    --graymiddle: #666;
+    --graywhite: #9E9E9E;
+    --backgroundwhite:#F8F8F8;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:didact;
+    src: url(../fonts/DidactGothic-Regular.ttf);
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: didact;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url("https://images.unsplash.com/photo-1583946078429-ee8fb232b8ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+    background-position: center;
+    background-image: ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 2.5rem;
+}
+nav{
+    padding:27rem 58rem 32rem 58rem;
+}
