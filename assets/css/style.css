@@ -36,21 +36,23 @@ header{
 }
 nav {
     text-align: right;
-    margin:auto;
+    padding:2vh 4vw;
 }
 nav a{ 
     text-decoration: none;
+    text-align: center;
     font-size: 2.2rem;
-    padding: 2.2rem 5.29rem 65.3rem 116.91rem;
     text-transform: uppercase;
     color: var(--black);
 }
 .heroimg {
     background: url("https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1550&q=80")no-repeat center;
-    margin: 13rem 31rem;
+    margin:10rem;
+    height: auto;
+    width: auto;
 }
 h1{
-    padding: 19rem 15rem;
+    padding: 30rem;
     color: var(--white);
     font-size: 2.5rem;
     line-height: 2.5rem;
@@ -60,41 +62,56 @@ h1{
     height:100vh;
     width: 100vw;
     background: url("https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")no-repeat center;
+    background-size: cover;
 }
 .Wolke2{
     height:100vh;
     width: 100vw;
     background: url("https://images.unsplash.com/photo-1536532184021-da5392b55da1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")no-repeat center;
+    background-size: cover;
 }
 .Wolke3{
     height:100vh;
     width: 100vw;
     background: url("https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")no-repeat center;
+    background-size: cover;
 }
 article{
     text-align: center;
     height:70vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 .textbox {
-    padding:11.9rem 35.1rem 9.9rem 35.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 80%;
 }
 h2{
-    font-size: 2rem;
+    font-size: 4rem;
     margin-bottom: 2.7rem;
 }
 .textbox p {
-    font-size: 1.4rem;
-    line-height: 1.35rem;
+    font-size: 2.4rem;
+    line-height: 2.35rem;
 }
 .lastimg {
     background-color: var(--backgroundwhite);
     height:100vh;    
+    
 }
 .textbox2 {
         background: url("https://images.unsplash.com/photo-1610692507254-3bc16d2527ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80")no-repeat center;
-        margin: 13rem 31rem;
+        margin: 30vh 20vw;
+        background-size: cover;
+
+        padding:10rem;
 }
 
 h4{
